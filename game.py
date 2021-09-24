@@ -1,5 +1,10 @@
 # this is the "game.py" file...
 import random
+import os
+
+x = os.getenv("PLAYER_NAME")
+print(x)
+
 
 print("Welcome 'Player One' to my Rock-Paper-Scissors game...")
 user_choice = input("Please choose either 'rock', 'paper', or 'scissors': ")
