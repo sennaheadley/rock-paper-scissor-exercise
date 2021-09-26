@@ -9,12 +9,12 @@ playername = os.getenv("PLAYER_NAME")
 
 print("Welcome", playername, "to my Rock-Paper-Scissors game...")
 user_choice = input("Please choose either 'rock', 'paper', or 'scissors': ")
-if user_choice in ["rock","paper","scissors"]:
+if user_choice in ['rock','paper','scissors']:
     print("user chose:") 
     print(user_choice)
 else: 
-    print("You choice is not valid.  Reminder- all letters must be lowercase!")
-    print("Try again")
+    print("Your choice is not valid.  Reminder: all letters should be lowercase!")
+    print("Try again.")
     exit()
 #Thank you to Dominic Parente for sharing his code chunk. 
 
