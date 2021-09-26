@@ -5,20 +5,24 @@ import os
 from dotenv import load_dotenv
 load_dotenv()
 
-x = os.getenv("PLAYER_NAME")
-print(x)
+playername = os.getenv("PLAYER_NAME")
 
-
-print("Welcome 'Player One' to my Rock-Paper-Scissors game...")
+print("Welcome", playername, "to my Rock-Paper-Scissors game...")
 user_choice = input("Please choose either 'rock', 'paper', or 'scissors': ")
-print(user_choice)
+if user_choice in ["rock","paper","scissors"]:
+    print("user chose:") 
+    print(user_choice)
+else: 
+    print("You choice is not valid.  Reminder- all letters must be lowercase!")
+    print("Try again")
+    exit()
+#Thank you to Dominic Parente for sharing his code chunk. 
 
 options = ["rock", "paper", "scissors"]
 
 computer_choice = random.choice(options)
 print(computer_choice)
 
-#breakpoint()
 
 if user_choice == "rock" and computer_choice == "scissors":
     print("You chose",user_choice)
