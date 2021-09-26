@@ -7,7 +7,7 @@ Fork this remote repository.
 
 Access it using the command line: 
 ```
-cd ~/Desktop/rock-paper-scissor-app
+cd ~/Desktop/rock-paper-scissor-exercise
 ```
 
 Make a virtual environment with Anaconda: 
@@ -25,7 +25,7 @@ pip install -r requirements.txt
 
 Change username by accessing and editing "PLAYER_NAME" stored in the .env file: 
 ```
-PLAYER_NAME = "{enter your name}" python game.py
+PLAYER_NAME="{enter your name}" python game.py
 ```
 
 ## Usage
