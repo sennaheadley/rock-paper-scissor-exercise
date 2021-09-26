@@ -7,7 +7,7 @@ Fork this remote repository.
 
 Access it using the command line: 
 ```
-cd ~/Desktop/rock-paper-scissor-app
+cd ~/Desktop/rock-paper-scissor-exercise
 ```
 
 Make a virtual environment with Anaconda: 
