@@ -21,6 +21,7 @@ else:
 options = ["rock", "paper", "scissors"]
 
 computer_choice = random.choice(options)
+print("computer chose:")
 print(computer_choice)
 
 
