@@ -21,16 +21,16 @@ Install package dependencies:
 pip install -r requirements.txt
 ```
 
-## Customization 
+## Customization and Usage
 
 Change username by accessing and editing "PLAYER_NAME" stored in the .env file: 
 ```
-PLAYER_NAME = "{enter your name}" python -m game.py
+PLAYER_NAME = "{enter your name}" python game.py
 ```
 
 ## Usage
 
-Run the app from the command line: 
+Or choose to run the app from the command line without customization: 
 ```
 python game.py
 ```
